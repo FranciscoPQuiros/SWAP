@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿De que depende el exito de una empresa?</enunciado>
+  <opcionA>Tener un servidor de base de datos</opcionA>
+  <opcionB>Tener una disponibilidad baja</opcionB>
+  <opcionC>Que los usuarios tenga buena experiencia al visitarla (web)</opcionC>
+  <opcionD>Que el servidor sea Apache y no Cherokee</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cual de estas opciones produce menos impacto en la escalabilidad de un sistema?</enunciado>
+  <opcionA>Optimización del código </opcionA>
+  <opcionB>Optimización del hardware </opcionB>
+  <opcionC>Diseño </opcionC>
+  <opcionD>Optimización del producto </opcionD>
+  <solucion>B</solucion>
+</pregunta>

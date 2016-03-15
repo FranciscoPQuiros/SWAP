@@ -1,0 +1,20 @@
+<pregunta>
+  <enunciado>¿Como se denomina al conjunto de servidores dedicados a
+servir contenido web a los usuarios finales?</enunciado>
+  <opcionA>Granja Web</opcionA>
+  <opcionB>Internet</opcionB>
+  <opcionC>Servidor de desarrollo </opcionC>
+  <opcionD>Servidor de producción</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Posible solucion cuando se tienen problemas en la carga del sistema?</enunciado>
+  <opcionA>Tener una máquina servidor
+replicada</opcionA>
+  <opcionB>Configurar varias máquinas, dedicando una a cada servicio
+que se esté ofreciendo</opcionB>
+  <opcionC>Modificaciones directamente en el servidor en producción </opcionC>
+  <opcionD>Actualización del sistema operativo</opcionD>
+  <solucion>B</solucion>
+</pregunta>
