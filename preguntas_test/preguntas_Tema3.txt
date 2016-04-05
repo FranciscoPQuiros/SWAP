@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿Cuales de estos problemas podrian darse al tener configurado un DMZ simple?</enunciado>
+  <opcionA>El DMZ son los padres</opcionA>
+  <opcionB>No existe ningun problema</opcionB>
+  <opcionC>El cortafuegos puede ser un cuello de botella</opcionC>
+  <opcionD>Compartir el ancho de banda</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿De que manera se consigue la configuración más segura?</enunciado>
+  <opcionA>Con los servidores expuestos a Internet</opcionA>
+  <opcionB>Con un cortafuegos que gestione Internet, DMZ y la red corporativa</opcionB>
+  <opcionC>Sin DMZ es lo más seguro </opcionC>
+  <opcionD>Aislar a todos los servidores con cortafuegos</opcionD>
+  <solucion>D</solucion>
+</pregunta>
