@@ -9,7 +9,7 @@
 
 Tras guardar el archivo reiniciamos el servicio y comprobamos mediante los mensajes de salida que no hay problemas.
 
-Modifico el cron de la máquina 2 y modificamos los fichero **hola.txt** de los servidores finales, para que cuando se soliciten con _curl_ se vean las diferencias.
+Modifico el cron de la máquina 2 y modificamos los ficheros **hola.txt** de los servidores finales, para que cuando se soliciten con _curl_ se vean las diferencias.
 
 ![Solicitando hola.txt](curl_nginx.png "Solicitando hola.txt")
 
@@ -39,9 +39,9 @@ Finalmente, como parte optativa usamos _Zen Load Balancer_ como balanceador de c
 
 	![Instalando Zen](zen_install.png "Instalando Zen")
 
-Vamos indicando como si instalaramos ubuntu server y le asignamos una IP que no este ocupada en nuestra red. Cuando concluya la instalación seguiremos estos pasos:
+Vamos indicando como si estuviésemos instalando ubuntu server y le asignamos una IP que no este ocupada en nuestra red. Cuando concluya la instalación seguiremos estos pasos:
 
-	1. Abriremos, desde el sistema anfitrion, un navegador y pondremos _https://<ip_asignada>:444/_ la cual nos pedira las credenciales admin/admin.
+	1. Abriremos, desde el sistema anfitrión, un navegador y pondremos _https://<ip_asignada>:444/_ la cual nos pedirá las credenciales admin/admin.
 
 	2. Una vez dentro, entraremos en _Settings -> Interfaces_ y añadiremos una interface virtual.
 
@@ -55,4 +55,4 @@ Vamos indicando como si instalaramos ubuntu server y le asignamos una IP que no 
 
 ![Añadiendo servers](add_servers.png "Añadiendo servers")
 
-Ya todo deberia funcionar correctamente sin problemas 
+Ya todo debería funcionar correctamente sin problemas 
