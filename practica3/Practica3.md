@@ -4,24 +4,28 @@
 ##-Configurando NGINX
 
 * Tras la instalación de nginx, realizando el proceso indicado en la práctica, añado el contenido que debería tener el archivo **/etc/nginx/conf.d/default.conf**.
+
 ![Configurando nginx](nginx_conf.png "Configurando nginx")
 
 * Tras guardar el archivo reiniciamos el servicio y comprobamos mediante los mensajes de salida que no hay problemas.
 
 * Modifico el cron de la máquina 2 y modificamos los fichero **hola.txt** de los servidores finales, para que cuando se soliciten con _curl_ se vean las diferencias.
+
 ![Solicitando hola.txt](curl_nginx.png "Solicitando hola.txt")
 
 * También comprobamos el balanceo mediante ponderación añadiendo "pesos" de carga distintos a los servidores:
 
-	weight = 2
-	weight = 1
+	- weight = 2
+	- weight = 1
 
 Obtenemos como respuesta a lo solicitado:
+
 ![Configurando nginx con ponderación](nginx_pon.png "Configurando nginx con ponderación")
 
 ##-Configurando Haproxy
 
 * Realizo el mismo proceso para que funcione haproxy. Este es el contenido del archivo **/etc/haproxy/haproxy.cfg**.
+
 ![Configurando haproxy](haproxy_conf.png "Configurando haproxy")
 
 * Tras salvar el archivo comprobamos que funciona perfectamente el balanceo. Para ello se debe de iniciar el servicio de una manera diferente a lo habitual:
@@ -47,7 +51,8 @@ Obtenemos como respuesta a lo solicitado:
 
 	5. Pulsaremos editar sobre la "_granja_" creada para añadir los servidores finales.
 
-	6.Encontraremos este recuadro y pondremos las ip finales.
+	6. Encontraremos este recuadro y pondremos las ip finales.
+
 	![Añadiendo servers](add_servers.png "Añadiendo servers")
 
 	7. Ya solo hace falta comprobar que todo funciona correctamente y listo.
