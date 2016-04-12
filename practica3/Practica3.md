@@ -3,7 +3,7 @@
 
 ##-Configurando NGINX
 
-Tras la instalación de nginx, realizando el proceso indicado en la práctica, añado el contenido que debería tener el archivo **/etc/nginx/conf.d/default.conf**.
+* Tras la instalación de nginx, realizando el proceso indicado en la práctica, añado el contenido que debería tener el archivo **/etc/nginx/conf.d/default.conf**.
 
 	![Configurando nginx](nginx_conf.png "Configurando nginx")
 
@@ -24,7 +24,7 @@ También comprobamos el balanceo mediante ponderación añadiendo "pesos" de car
 
 ##-Configurando Haproxy
 
-Realizo el mismo proceso para que funcione haproxy. Este es el contenido del archivo **/etc/haproxy/haproxy.cfg**.
+* Realizo el mismo proceso para que funcione haproxy. Este es el contenido del archivo **/etc/haproxy/haproxy.cfg**:
 
 	![Configurando haproxy](haproxy_conf.png "Configurando haproxy")
 
@@ -53,6 +53,6 @@ Vamos indicando como si instalaramos ubuntu server y le asignamos una IP que no 
 
 	6. Encontraremos este recuadro y pondremos las ip finales.
 
-		![Añadiendo servers](add_servers.png "Añadiendo servers")
+![Añadiendo servers](add_servers.png "Añadiendo servers")
 
 Ya todo deberia funcionar correctamente sin problemas 
