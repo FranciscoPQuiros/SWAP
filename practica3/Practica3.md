@@ -41,15 +41,15 @@ Finalmente, como parte optativa usamos _Zen Load Balancer_ como balanceador de c
 
 Vamos indicando como si estuviésemos instalando ubuntu server y le asignamos una IP que no este ocupada en nuestra red. Cuando concluya la instalación seguiremos estos pasos:
 
-	1. Abriremos, desde el sistema anfitrión, un navegador y pondremos _https://<ip_asignada>:444/_ la cual nos pedirá las credenciales admin/admin.
+	1. Abriremos, desde el sistema anfitrión, un navegador y pondremos **https://<ip_asignada>:444/** la cual nos pedirá las credenciales admin/admin.
 
-	2. Una vez dentro, entraremos en _Settings -> Interfaces_ y añadiremos una interface virtual.
+	2. Una vez dentro, entraremos en _Settings_ -> _Interfaces_ y añadiremos una interface virtual.
 
-	3. Posteriormente, vamos a _Manage -> Farms_ y añadimos una nueva granja indicando un nombre con el profile por defecto. 
+	3. Posteriormente, vamos a _Manage_ -> _Farms_ y añadimos una nueva granja indicando un nombre con el profile por defecto. 
 
 	4. Seleccionaremos la Ip virtual creada anteriormente y pondremos el puerto 80.
 
-	5. Pulsaremos editar sobre la "_granja_" creada para añadir los servidores finales.
+	5. Pulsaremos editar sobre la _granja_ creada para añadir los servidores finales.
 
 	6. Encontraremos este recuadro y pondremos las ip finales.
 
