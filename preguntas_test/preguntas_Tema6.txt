@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿En que concepto no se basa los objetivos de seguridad?</enunciado>
+  <opcionA>Confidencialidad</opcionA>
+  <opcionB>Integridad</opcionB>
+  <opcionC>Phishing</opcionC>
+  <opcionD>Disponibilidad</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuales de estas políticas se usan para acceder a los recursos de forma segura?</enunciado>
+  <opcionA>Seguridad a nivel físico</opcionA>
+  <opcionB>Seguridad a nivel de red</opcionB>
+  <opcionC>Seguridad a nivel de administrador</opcionC>
+  <opcionD>Cuentas de servicios</opcionD>
+  <solucion>D</solucion>
+</pregunta>

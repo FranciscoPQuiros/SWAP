@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿Cuales de las siguientes opciones no es una ventaja de una granja web con balanceo de carga?</enunciado>
+  <opcionA>Mejora la escalabilidad</opcionA>
+  <opcionB>Facilita el mantenimiento</opcionB>
+  <opcionC>Mejora la seguridad</opcionC>
+  <opcionD>Devuelve las solicitudes dobles</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Como se denomina al tipo de distribución de carga entre varios centros de datos?</enunciado>
+  <opcionA>Balanceo de carga global</opcionA>
+  <opcionB>Balanceo con dispositivos hardware</opcionB>
+  <opcionC>Balanceo basado en prioridad</opcionC>
+  <opcionD>Balanceo con retroalimentacion</opcionD>
+  <solucion>A</solucion>
+</pregunta>
