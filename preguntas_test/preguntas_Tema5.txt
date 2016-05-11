@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿Cual de ellos es una limitación de los test que miden prestaciones?</enunciado>
+  <opcionA>No se puede simular el comportamiento de los usuarios</opcionA>
+  <opcionB>Detectar posibles cuellos de botella</opcionB>
+  <opcionC>Descubrir problemas de rendimiento</opcionC>
+  <opcionD>Ver errores de programación</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cual no es una métrica para medir las prestaciones?</enunciado>
+  <opcionA>Conexiones por segundo</opcionA>
+  <opcionB>Número toral de conexiones concurrentes</opcionB>
+  <opcionC>Streaming</opcionC>
+  <opcionD>Rendimiento</opcionD>
+  <solucion>C</solucion>
+</pregunta>

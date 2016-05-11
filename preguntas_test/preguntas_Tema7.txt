@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿De las siguientes opciones que puede hacer RAID?</enunciado>
+  <opcionA>Proteger los datos</opcionA>
+  <opcionB>Simplifica la recuperación de un desastre</opcionB>
+  <opcionC>Acceder a los datos aunque falle un disco</opcionC>
+  <opcionD>Mejora el rendimiento para todas las aplicaciones</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuales no son tan eficientes en operaciones de escritura?</enunciado>
+  <opcionA>RAID0, RAID1 Y RAID2</opcionA>
+  <opcionB>RAID4, RAID5 Y RAID6</opcionB>
+  <opcionC>RAID4, RAID1, RAID10 Y RAID5</opcionC>
+  <opcionD>Cuentas de servicios</opcionD>
+  <solucion>D</solucion>
+</pregunta>
